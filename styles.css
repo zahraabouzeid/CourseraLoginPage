@@ -68,6 +68,13 @@ form label {
     font-weight: bold;
     color: white;
     background-color: var(--main-color);
+    transition: 0.3s ease;
+}
+
+#login:hover {
+    background-color: #03418b;
+    transform: scale(1.01);
+    cursor: pointer;
 }
 
 .first-divider {
@@ -103,12 +110,12 @@ form label {
     border-radius: 3px;
     align-items: center;
     padding: 20px;
+    transition: 0.3s ease;
 }
 
 .login-option:hover {
     background-color: #EBF3FF;
     cursor: pointer;
-    transition: 0.3s;
 }
 
 .login-option:hover h5 {
